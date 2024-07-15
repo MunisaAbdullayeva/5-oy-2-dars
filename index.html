@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+ 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> 
+ 
+</head> 
+ 
+<body class="bg-gray-900 text-white"> 
+    <div class="flex flex-col max-w-[50%] mx-auto container border-2 rounded-2xl "> 
+ 
+        <div class="flex items-center justify-between text-3xl p-5"> 
+            <div id="nickname"></div> 
+            <div class="flex gap-5"> 
+                <i class="bi bi-plus-square"></i> 
+                <i class="bi bi-list"></i> 
+            </div> 
+        </div> 
+ 
+        <div class="flex items-center justify-between"> 
+            <div class="img relative rounded-full p-5 w-1/4"> 
+                <img src="" alt="" id="profile-img" class="rounded-full size-36"> 
+                <div 
+                    class="absolute size-10 bg-sky-400 flex items-center justify-center rounded-full bottom-5 right-8 font-bold text-2xl"> 
+                    + 
+                </div> 
+            </div> 
+ 
+            <div class="flex justify-between w-3/4 text-center px-5 text-sm"> 
+                <div class="w-1/3"> 
+                    <p id="postsLength"></p> 
+                    <p>Публикации</p> 
+                </div> 
+ 
+                <div class="w-1/3"> 
+                    <p id="followersLength"></p> 
+                    <p>Подписчики</p> 
+                </div> 
+ 
+                <div class="w-1/3"> 
+                    <p id="followingLength"></p> 
+                    <p>Подписки</p> 
+                </div> 
+            </div> 
+        </div> 
+ 
+    </div> 
+ 
+    <script src="./main.js"></script> 
+</body> 
+ 
+</html>.
